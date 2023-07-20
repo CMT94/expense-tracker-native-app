@@ -29,6 +29,36 @@ const EXPENSES = [
     amount: 24.8,
     date: new Date("2023-07-19"),
   },
+  {
+    id: "e6",
+    description: "Museum Ticket",
+    amount: 10.0,
+    date: new Date("2023-07-20"),
+  },
+  {
+    id: "e7",
+    description: "Italian Restaurant",
+    amount: 95.5,
+    date: new Date("2023-07-20"),
+  },
+  {
+    id: "e8",
+    description: "Amazon Order",
+    amount: 367.0,
+    date: new Date("2023-07-20"),
+  },
+  {
+    id: "e9",
+    description: "Apple iWatch",
+    amount: 389.0,
+    date: new Date("2023-07-20"),
+  },
+  {
+    id: "e10",
+    description: "Total Fuel",
+    amount: 120.0,
+    date: new Date("2023-07-20"),
+  },
 ];
 
 export default EXPENSES;
