@@ -12,6 +12,8 @@ const ExpensesList = ({ expenses }) => {
       data={expenses}
       renderItem={renderExpenseItem}
       keyExtractor={(item) => item.id}
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
     />
   );
 };
