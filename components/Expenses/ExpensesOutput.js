@@ -5,14 +5,13 @@ import { View, StyleSheet } from "react-native";
 import ExpensesSummary from "./ExpensesSummary";
 import ExpensesList from "./ExpensesList";
 
-import EXPENSES from "../../data/expenses";
 import { GlobalStyles } from "../../constants/GlobalStyles";
 
 const ExpensesOutput = ({ expenses, expensesPeriod }) => {
   return (
     <View style={styles.container}>
-      <ExpensesSummary expenses={EXPENSES} periodName={expensesPeriod} />
-      <ExpensesList expenses={EXPENSES} />
+      <ExpensesSummary expenses={expenses} periodName={expensesPeriod} />
+      <ExpensesList expenses={expenses} />
     </View>
   );
 };
